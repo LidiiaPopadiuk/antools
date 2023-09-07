@@ -1,0 +1,113 @@
+:root {
+    --color-logo:#FFFFFF;
+    --color-headlist:#FFFFFF8C;
+    --color-bg:#1E252B;
+    --color-hoverbtn:#FF6E30;
+    --color-btntext:#FFFFFFC7;
+    --color-btnsine:#FDF5FF;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins;
+    background-color:var(--color-bg);
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 34px;
+}
+
+.header_logo {
+    color:var(--color-logo);
+    font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.header_logo::before {
+    content: url('../src/icons/headerlogo.svg');
+    position: absolute;
+  left: 115px;
+  top: 55px;
+}
+
+.header_item:nth-child(2)::after {
+    content: url('../src/icons/chevrondown.svg');
+    position: absolute;
+    left: 726px;
+    top: 61px;
+}
+
+.header_item {
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: var(--color-headlist);
+}
+
+.header_btn {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--color-btntext);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.header_btn {
+    border-radius: 8px;
+    background-color: var(--color-hoverbtn);
+    width: 118px;
+    height: 48px;
+    border: 0;
+    color: var(--color-btnsine);
+}
+
+.header_list {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin: 0;
+} 
+
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_list-btn {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 257px;
+}
+
+.header_link {
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--color-btntext);
+}
+
