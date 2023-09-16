@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>antools</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,7 +18,9 @@
     <header class="header">
       <div class="container">
         <div class="header_wrapper">
-          <h2 class="header_logo">antools.</h2>
+          <h2 class="header_logo">
+            <img src="./src/icons/headerlogo.svg" alt="logo" /> antools.
+          </h2>
           <nav class="header_nav">
             <ul class="header_list">
               <li class="header_item">Home</li>
@@ -34,5 +36,59 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="tools">
+        <div class="container">
+          <h1 class="tools_title">
+            Awesome tools for Designer & Developer<span>.</span>
+          </h1>
+          <h3 class="tools_descr">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </h3>
+          <form class="tools_form" action="#">
+            <div class="tools_wrapper">
+              <div class="tools_wrapper-text">
+                <img
+                  class="tools_img"
+                  src="./src/icons/search.svg"
+                  alt="search"
+                />
+                <input
+                  class="tools_input"
+                  type="text"
+                  placeholder="find more than 430+ tools..."
+                />
+              </div>
+              <button class="tools_btn">Search</button>
+            </div>
+          </form>
+        
+          <ul class="tools_list">
+            <li class="tools_item">
+              <img
+                class="tools_item-img"
+                src="./src/icons/facebook.svg"
+                alt="facebook"
+              />
+            </li>
+            <li class="tools_item">
+              <img
+                class="tools_item-img"
+                src="./src/icons/instagram.svg"
+                alt="instagram"
+              />
+            </li>
+            <li class="tools_item">
+              <img
+                class="tools_item-img"
+                src="./src/icons/twitter.svg"
+                alt="twitter"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
