@@ -469,6 +469,7 @@ color: var(--color-headlist);
     width: 288px;
 height: 284px;
 border-radius: 15px;
+padding: 28px 21px 28px 22px;
 background: var(--color-bg)
 }
 
@@ -496,6 +497,47 @@ background: var(--color-bg)
 
 .newcomer_list {
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: flex-end; */
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 50px;
+    max-width: 640px;
 }
+
+.newcomer_box {
+    max-width: 427px;
+
+}
+
+.newcomer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ronald_wrapper-text {
+    width: 393px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.21px;
+color: var(--color-btntext);
+}
+
+
+.ronald_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ronald_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.ronald_wrapper img {
+    position: relative;
+    bottom: 110px;
+    left: 49px;
+}
+
