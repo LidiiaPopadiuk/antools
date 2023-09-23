@@ -539,6 +539,8 @@ color: var(--color-btntext);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 600px;
+    width: 100%;
 }
 
 .ronald_wrap {
@@ -558,6 +560,12 @@ color: var(--color-btntext);
     align-items: center;
 }
 
+.ronald_arrow-left:hover path {
+    stroke: var(--color-hoverbtn);
+    cursor: pointer;
+    stroke-opacity: 1;
+}
+
 .ronald_arrow-right {
     transform: rotate(180deg);
     cursor: pointer;
@@ -565,6 +573,8 @@ color: var(--color-btntext);
 
 .ronald_arrow-right:hover path {
 stroke: var(--color-hoverbtn);
+cursor: pointer;
+stroke-opacity: 1;
 }
 
 .ronald {
@@ -596,3 +606,57 @@ cursor: pointer;
 .ronald_item:hover {
 background: #FF6E30;
 }
+
+.become {
+    margin-top: 250px;
+}
+
+
+.become_title {
+    font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+text-align: center;
+color: var(--color-toolstitlr);
+}
+
+.become_desc {
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+width: 427px;
+text-align: center;
+color: var(--color-headlist);
+}
+
+.become input {
+   width: 100%;
+   background: rgba(0, 0, 0, 0);
+   border: none;
+}
+
+.become_form {
+    width: 549px;
+    height: 64px;
+    border-radius: 15px;
+    padding: 8px 12px 8px 24px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: var(--color-tinputback);
+}
+
+.become_btn {
+    width: 130.435px;
+height: 48px;
+border-radius: 8px;
+background-color: var(--color-hoverbtn);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+cursor: pointer;
+color: var(--color-logo);
+}
+
