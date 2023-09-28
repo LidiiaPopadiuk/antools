@@ -146,7 +146,6 @@ color: var(--color-hoverbtn);
 
 .tools {
     padding: 111px 0 11px 0;
-    /* height: 354px; */
     background: url(../src/img/Illustration.png) right bottom no-repeat;}
 
 .tools_descr {
@@ -191,6 +190,7 @@ color: var(--color-logo);
 .tools_input {
 background-color: rgba(0, 0, 0, 0);
 border: none;
+outline: none;
 }
 
 .tools_list {
@@ -355,6 +355,17 @@ padding: 17px 38px;
 margin-top: 100px;
 }
 
+.popular_btn-like:hover path {
+    fill: #FD3B41;
+    cursor: pointer;
+    fill-opacity: 1;
+}
+
+.popular_btn-like {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
 .popular_btns {
     display: flex;
     justify-content: center;
@@ -452,8 +463,18 @@ border: none;
 .newcomer_btn-like:hover path {
     fill: #FD3B41;
     cursor: pointer;
+    fill-opacity: 1;
 }
 
+.newcomer_icon-button {
+    text-align: center;
+padding: 9px 35px;
+}
+
+.newcomer_icon-button:hover {
+    background-color: var(--color-hoverbtn);
+    color: var(--color-logo);
+}
 
 .newcomer_desc-title {
     font-size: 24px;
@@ -544,6 +565,11 @@ background: var(--color-bg)
     row-gap: 50px;
     max-width: 640px;
 }
+
+.newcomer_wrapper:hover {
+    background: rgba(40, 48, 54, 0.60);
+    backdrop-filter: blur(25px);
+    }
 
 .newcomer_box {
     max-width: 427px;
@@ -676,6 +702,7 @@ color: var(--color-headlist);
    width: 100%;
    background: rgba(0, 0, 0, 0);
    border: none;
+   outline: none;
 }
 
 .become_form {
